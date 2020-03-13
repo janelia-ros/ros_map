@@ -1,8 +1,19 @@
+- name: Aalborg University
+  type: school
+  lat: 57.014578
+  long: 9.981863
+  address: Fredrik Bajers Vej 5, 9100 Aalborg, Denmark
+  link: https://www.robotics.aau.dk/
 - name: Aalto University
   type: school
   lat: 60.187009
   long: 24.819531
   description: TUAS building (Automation Systems)
+- name: Accerion
+  type: company
+  lat: 51.37431
+  long: 6.15568
+  link: www.accerion.tech
 - name: Akcaabat Science High School
   type: school
   lat: 39.559112
@@ -14,6 +25,12 @@
   type: school
   lat: 47.998778
   long: 7.848102
+- name: Alcalá de Henares University
+  type: school
+  lat: 40.5128
+  long: -3.3496
+  description: Alcalá de Henares University, Polytechnic
+  link: https://www.uah.es/es/
 - name: Aldebaran
   type: company
   lat: 48.8286
@@ -25,17 +42,52 @@
   long: 22.960775
   description: P.A.N.D.O.R.A. Robotics Team
   link: http://pandora.ee.auth.gr
+- name: Beta Robots
+  type: company
+  lat: 41.631967
+  long: 2.298813
+  link: http://www.beta-robots.com
+- name: Blue Ocean Robotics
+  type: company
+  lat: 55.375476
+  long: 10.44317
+  address: Niels Bohrs Alle 185, 5220 Odense, Denmark
+  link: https://www.blue-ocean-robotics.com/
+- name: Blue Ocean Robotics (Barcelona)
+  type: company
+  lat: 41.400265
+  long: 2.177047
+  link: https://www.blue-ocean-robotics.com/
 - name: Bonn-Rhein-Sieg University of Applied Sciences
   type: school
   lat: 50.77976
   long: 7.182671
   address: Grantham-Allee 20, 53757 Sankt Augustin, Germany
   link: http://www.inf.fh-bonn-rhein-sieg.de/informatik/en/MAS.html
+- name: Bordeaux INP
+  type: school
+  lat: 44.80604
+  long: -0.60519
+  description: Engineering school in computer science, electronics, mechanics
+  link: http://robot-enseirb-matmeca.fr/
+- name: COEX
+  type: company
+  lat: 55.706755
+  long: 37.725558
+  address: Volgogradskiy Prospekt 42, Moscow, Russia
+  description: Popular educational quadcopters (https://coex.tech/clover) with ROS-powered
+    software platform
+  link: https://coex.tech
 - name: Care-O-bot
   type: research institute
   lat: 48.741341
   long: 9.0969681
   link: http://care-o-bot.org
+- name: Complubot
+  type: company
+  lat: 40.4903
+  long: -3.3501
+  link: http://complubot.com/inicio/
 - name: Danish Technological Institute
   type: company
   lat: 55.369208
@@ -49,17 +101,29 @@
   type: school
   lat: 51.447744
   long: 5.489841
+- name: Eurotec
+  type: company
+  lat: 51.86799
+  long: 4.78109
+  link: https://www.lowpad.com
+- name: ExRobotics
+  type: company
+  lat: 51.55451
+  long: 4.73206
+  link: https://exrobotics.global
 - name: FZI Research Center for Information Technology
   type: research institute
   lat: 49.01212
   long: 8.42477
   address: Karlsruhe, Germany
   link: http://www.fzi.de/en/research/research-sectors/anwendungsfelder-en/afeld/automation-und-robotik/
-- name: Fraunhofer FKIE
+- name: Fraunhofer Institute for Communication, Information Processing and Ergonomics FKIE
   type: research institute
   lat: 50.617713
   long: 7.13065
-  address: Neuenahrer Straße 20, 53343 Wachtberg
+  address: Fraunhoferstraße 20, 53343 Wachtberg, Germany
+  description: Cognitive mobile systems, innovative prototype applications for single- and multi-robot systems, intelligent assistance functions
+  link: https://www.fkie.fraunhofer.de
 - name: Fraunhofer IPA
   type: research institute
   lat: 48.741341
@@ -78,12 +142,31 @@
   type: school
   lat: 55.899956
   long: -3.328857
+- name: Hochschule Bonn-Rhein-Sieg University of Applied Sciences
+  type: school
+  lat: 50.779746
+  long: 7.182314
+  description: University of Applied Sciences
+  link: https://www.h-brs.de/en
 - name: Hochschule Ravensburg-Weingarten
   type: school
   lat: 47.812744
   long: 9.650772
   address: Doggenriedstraße 38, D-88250 Weingarten
   link: http://iki.hs-weingarten.de
+- name: Husarion
+  type: company
+  lat: 50.064918
+  long: 19.938629
+  address: Slawkowska 23/4, 31-016 Krakow, Poland
+  description: Husarion provides hardware and software for autonomous mobile robot
+    development & connectivity. Husarion is a manufacturer of autonomous mobile robots
+    for research & education purposes. It's main hardware products are ROSbot 2.0
+    and Panther ROS-powered platforms. You can manage them online and connect them
+    into fleets with Husarion's internet tools. The company provides also custom mobile
+    robot design services covering electronics, mechanics, ROS software and Internet
+    management systems design.
+  link: https://husarion.com/
 - name: ICube
   type: research institute
   lat: 48.525812
@@ -99,10 +182,12 @@
     in the cities of Porto, Braga and Vila Real, INESC TEC incorporates 12 R&D Centres
     and one Associate Unit with complementary competences
   link: http://www.inesctec.pt
-- name: INRIA
+- name: INRIA Nancy
   type: research institute
-  lat: 45.217673
-  long: 5.806614
+  lat: 48.664011
+  long: 6.155633
+  description: INRIA Nancy, LARSEN Team is focus on robotics R&D.
+  link: https://team.inria.fr/larsen/
 - name: IXION, Smart Automation
   type: company
   lat: 40.4342401
@@ -117,6 +202,18 @@
     platform built by Inovasyon Muhendislik. The evarobot software system is written
     entirely in ROS.
   link: http://inovasyonmuhendislik.com
+- name: Inria Bordeaux Sud-Ouest
+  type: research institute
+  lat: 44.808479
+  long: -0.599851
+  description: Research institute for the digital sciences
+  link: https://www.inria.fr/en/centre/bordeaux
+- name: Inria Grenoble Rhône-Alpes
+  type: research institute
+  lat: 45.217673
+  long: 5.806614
+  description: Research institute for the digital sciences
+  link: https://www.inria.fr/en/centre/grenoble
 - name: Institut de Robotica i Informatica Industrial IRI (CSIC-UPC)"
   type: research institute
   lat: 41.382864
@@ -168,6 +265,12 @@
   address: Gaston Geenslaan 9 B2 - Heverlee, Belgium
   description: From Software to Robots
   link: http://www.intermodalics.eu/
+- name: Istanbul Technical University
+  type: school
+  lat: 41.102554
+  long: 29.027274
+  address: ITU Autonomous Underwater Vehicle Team, Faculty of Naval Architecture and Design, Istanbul, Turkey
+  link: http://auv.itu.edu.tr/index-eng.html
 - name: KTH Royal Institute of Technology
   type: school
   lat: 59.3463036
@@ -185,12 +288,25 @@
   lat: 49.012142
   long: 8.417019
   link: http://rob.ipr.kit.edu
+- name: Laboratory for Analysis and Architecture of Systems (LAAS)
+  type: research institute
+  lat: 43.563836
+  long: 1.476746
+  link: http://www.laas.fr
+  address: 7 Avenue du Colonel Roche, Toulouse, France
+  description: Research in robotics, optimization, control and formal verification (and also in material science)
 - name: MASCOR Institute at University of Applied Sciences (FH Aachen)
   type: research institute
   lat: 50.761113
   long: 6.074586
   description: Research in Mobile Autonomous Systems and Cognitive Robotics
   link: https://www.maskor.fh-aachen.de/en/
+- name: Marel (Denmark)
+  type: company
+  lat: 56.208456
+  long: 10.191272
+  address: P. O. Pedersens Vej 18, 8200 Aarhus, Denmark
+  link: https://marel.com/
 - name: Merlin Systems Ltd
   type: company
   lat: 53.069631
@@ -202,12 +318,23 @@
   address: Ankara, Turkey
   description: Milvus Technology, Mobile Robot Base
   link: http://www.milvusrobotics.com/
+- name: Mobile Industrial Robots (MiR)
+  type: company
+  lat: 55.364061
+  long: 10.492003
+  address: Emil Neckelmanns Vej 15F, 5220 Odense
+  link: https://www.mobile-industrial-robots.com/
 - name: Mojin Robotics GmbH
   type: company
-  lat: 48.741610
+  lat: 48.74161
   long: 9.097237
   address: Nobelstr. 12, 70569 Stuttgart, Germany
   link: http://www.mojin-robotics.de
+- name: Movigo Robotics
+  type: company
+  lat: 52.39204
+  long: 4.6557
+  link: www.movigorobotics.com
 - name: National Technical University of Athens, School of Mechanical Engineering
   type: school
   lat: 37.979119
@@ -223,8 +350,8 @@
   link: http://neurotechnology.com
 - name: Nobleo Technology B.V.
   type: company
-  lat: 51.423890
-  long: 5.494260
+  lat: 51.42389
+  long: 5.49426
   address: Heggeranklaan 1, 5643 BP, Eindhoven
   description: autonomous | intelligent | systems
   link: https://nobleo-technology.nl
@@ -265,6 +392,11 @@
   long: 2.194252
   address: Carrer Pujades 77-79, 08005 Barcelona, Spain
   link: http://pal-robotics.com
+- name: Photoneo
+  type: company
+  lat: 48.147233
+  long: 17.142807
+  link: https://www.photoneo.com/
 - name: Pick-it N.V.
   type: company
   lat: 50.865348
@@ -272,6 +404,19 @@
   address: Gaston Geenslaan 9 B2 - Heverlee, Belgium
   description: Robot Vision Made Easy
   link: https://www.pickit3d.com/
+- name: Pilz España
+  type: company
+  lat: 41.5916814356275
+  long: 2.28366374154854
+  address: Camí Ral, 130, 08401 Granollers (Barcelona), Spain, Spain
+  link: pilz.com
+- name: Pilz GmbH & Co. KG
+  type: company
+  lat: 48.713281
+  long: 9.307344
+  address: Felix-Wankel-Straße 2, 73760 Ostfildern
+  description: The Spirit of Safety
+  link: https://www.pilz.com/en-INT/products-solutions/robotics/ros-modules
 - name: RTC Group - University of Seville
   type: school
   lat: 37.381009
@@ -281,8 +426,16 @@
   link: http://www.ros.org/wiki/rtc-us-ros-pkg
 - name: RUVU Behavior for Robots
   type: company
-  lat: 51.447832
-  long: 5.489828
+  lat: 51.48872
+  long: 5.3946
+  link: http://www.ruvu.nl
+- name: Rey Juan Carlos University
+  type: school
+  lat: 40.282609
+  long: -3.819587
+  address: C/ Camino del Molino, s/n Fuenlabrada, 28943 madrid
+  description: Intelligent Robotics Lab
+  link: https://intelligentroboticslabs.github.io
 - name: Rheinisch-Westfälische Technische Hochschule Aachen
   type: school
   lat: 50.778944
@@ -299,6 +452,15 @@
     decisions and mission planning, knowledge management, multi-agent systems and
     advanced human-robot interaction systems.
   link: http://www.fit.vutbr.cz/research/groups/robo/index.php.en
+- name: Roboception GmbH
+  type: company
+  lat: 48.149429
+  long: 11.460008
+  address: Kaflerstr. 2, 81241 Munich, Germany
+  description: Roboception GmbH develops software and hardware products for real-time
+    perception and localisation of robotic systems. The name Roboception is comprised
+    of the words Robotics and Perception.
+  link: https://roboception.com
 - name: Robosavvy Lda.
   type: company
   lat: 38.727888
@@ -323,6 +485,23 @@
   lat: 52.22085
   long: 6.885674
   link: https://www.saxion.nl/mechatronics
+- name: Sencer Yazici
+  type: other
+  lat: 41.011243
+  long: 29.082413
+  description: ROS Enthusiastic
+  link: https://senceryazici.github.io
+- name: Smart Robotics
+  type: company
+  lat: 51.48872
+  long: 5.3946
+  link: https://www.smart-robotics.nl/
+- name: TNO Integrated Vehicle Safety
+  type: research institute
+  lat: 51.474398
+  long: 5.623993
+  address: Automotive Campus 30, 5708 JZ Helmond
+  link: https://www.tno.nl/en/focus-areas/traffic-transport/expertise-groups/research-on-integrated-vehicle-safety/
 - name: TU Darmstadt - FG SIM
   type: school
   lat: 49.877643
@@ -351,7 +530,7 @@
   lat: 48.198716
   long: 16.368586
 - name: Tecnalia
-  type: company
+  type: research institute
   lat: 43.277205
   long: -1.977539
 - name: The Shadow Robot Company
@@ -465,6 +644,11 @@
   long: 2.644315
   description: Escola Politècnica Superior, Universitat de les Illes Balears
   link: http://uib.cat
+- name: Van den Akker Engineering
+  type: company
+  lat: 51.72571
+  long: 5.39786
+  link: www.cargo180.com
 - name: Vitec Videocom
   type: company
   lat: 52.25214
@@ -479,6 +663,13 @@
   address: Neidenburgerstr. 43, 45877 Gelsenkirchen, Germany
   description: Autonomous Systems, Computer Vision, Machine Learning, Parallel Computing
   link: http://homepage.informatik.w-hs.de/HSurmann/
+- name: iXblue Robopec
+  type: company
+  lat: 43.113502
+  long: 5.848121
+  address: 532 Boulevard de Lery, 83140 Six-Fours-les-Plages, France
+  description: Robotics, AI and software development
+  link: https://www.robopec.com/en/
 - name: incubed IT GmbH
   type: company
   lat: 47.045223
@@ -488,39 +679,20 @@
   type: school
   lat: 45.523715
   long: 9.219541
-- name: Blue Ocean Robotics
+- name: Génération Robots
   type: company
-  lat: 55.375476
-  long: 10.443170
-  address: Niels Bohrs Alle 185, 5220 Odense, Denmark
-  link: https://www.blue-ocean-robotics.com/
-- name: Blue Ocean Robotics (Barcelona)
-  type: company
-  lat: 41.400265
-  long: 2.177047
-  link: https://www.blue-ocean-robotics.com/
-- name: iXblue Robopec
-  type: company
-  lat: 43.113502
-  long: 5.848121
-  address: 532 Boulevard de Lery, 83140 Six-Fours-les-Plages, France
-  link: https://www.robopec.com/en/
-  description: Robotics, AI and software development
-- name: Aalborg University
+  lat: 44.855124
+  long: -0.673166
+  address: 10 Rue Joule, 33700 Mérignac, France
+  description: Robotics, software engineering, AI, reseller
+  link: https://www.generationrobots.com
+- name: ESILV
   type: school
-  lat: 57.014578
-  long: 9.981863
-  address: Fredrik Bajers Vej 5, 9100 Aalborg, Denmark
-  link: https://www.robotics.aau.dk/
-- name: Marel (Denmark)
-  type: company
-  lat: 56.208456
-  long: 10.191272
-  address: P. O. Pedersens Vej 18, 8200 Aarhus, Denmark
-  link: https://marel.com/
-- name: Mobile Industrial Robots (MiR)
-  type: company
-  lat: 55.364061
-  long: 10.492003
-  address: Emil Neckelmanns Vej 15F, 5220 Odense
-  link: https://www.mobile-industrial-robots.com/
+  lat: 48.896378
+  long: 2.236371
+  description: Engineer School
+- name: Universitatea Titu Maiorescu
+  type: school
+  lat: 44.413634
+  long: 26.115238
+
